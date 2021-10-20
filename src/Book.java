@@ -4,7 +4,9 @@ import java.util.List;
 public class Book {
 
     private String title;
-    private List<Element> content = new ArrayList<Element>();
+    private Author author;
+    public static Integer chapterCount=0;
+    public List<Chapter> chapters = new ArrayList<Chapter>();
 
     public String getTitle() {
         return title;
@@ -14,60 +16,57 @@ public class Book {
         this.title = title;
     }
 
-    public List<Element> getContent() {
-        return content;
+
+
+    public Author getAuthor() {
+        return author;
     }
 
-    public void setContent(List<Element> content) {
-        this.content = content;
+    public void addAuthor(Author author) {
+        this.author = author;
     }
 
     public Book(String title) {
         this.title = title;
     }
 
-    public void createNewParagraph(String text)
+    public int createChapter(String text)
     {
-        Element e = new Element();
-        e.setType("paragraph");
-        e.setText(text);
-        this.content.add(e);
+
+        Chapter chapter = new Chapter(text,chapterCount);
+        chapterCount++;
+        chapters.add(chapter);
+
+       return chapterCount;
+
     }
 
-    public void createNewImage(String text)
+    public Chapter getChapter(int index)
     {
-        Element e = new Element();
-        e.setType("image");
-        e.setText(text);
-        this.content.add(e);
-    }
-    public void createNewTable(String text)
-    {
-        Element e = new Element();
-        e.setType("table");
-        e.setText(text);
-        this.content.add(e);
+      return chapters.get(index-1);
     }
 
-    public void print()
-    {
-        System.out.println("Title: "+ this.title);
-        System.out.println("Content: ");
-        for (Element e:
-             this.content) {
-            System.out.println(e.getText());
-        }
+    public void print() {
     }
 
     public static void main(String[] args) {
         Book discoTitanic = new Book("Disco Titanic");
-        discoTitanic.createNewParagraph("Paragraph 1");
-        discoTitanic.createNewParagraph("Paragraph 2");
-        discoTitanic.createNewParagraph("Paragraph 3");
-        discoTitanic.createNewImage("Image 1");
-        discoTitanic.createNewParagraph("Paragraph 4");
-        discoTitanic.createNewTable("Table 1");
-        discoTitanic.createNewParagraph("Paragraph 5");
-        discoTitanic.print();
+        Author rpGheo = new Author("Radu Pavel Gheo");
+
+        discoTitanic.addAuthor(rpGheo);
+        int indexChapterOne = discoTitanic.createChapter("Capitolul 1");
+        Chapter chp1 = discoTitanic.getChapter(indexChapterOne);
+        int indexSubChapterOneOne = chp1.createSubChapter("Subcapitolul 1.1");
+        SubChapter scOneOne = chp1.getSubChapter(indexSubChapterOneOne);
+
+        scOneOne.createNewParagraph("Paragraph 1");
+        scOneOne.createNewParagraph("Paragraph 2");
+        scOneOne.createNewParagraph("Paragraph 3");
+        scOneOne.createNewImage("Image 1");
+        scOneOne.createNewParagraph("Paragraph 4");
+        scOneOne.createNewTable("Table 1");
+        scOneOne.createNewParagraph("Paragraph 5");
+
+        scOneOne.print();
     }
 }
