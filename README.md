@@ -1,11 +1,11 @@
 # Sabloane de Proiectare 
 
-| Laborator  | Observatii  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+|<p align="center"> **Laborator**</p> | <p align="center"> **Observații**</p>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 | ------------- | ------------- |
-|<p align="center"> 1 </p>  | scrie aici |
-| 2  |  |
-| 3  | scrie aici |
-| 4  |  |
-| 5  | scrie aici |
-| 6  |  |
-| 7  | scrie aici |
+|<p align="center"> **1** </p>  | <p align="center"> **scrie aici**</p> |
+|<p align="center"> **2** </p>  | <p align="center"> **scrie aici**</p> |
+|<p align="center"> **3** </p>  | <p align="center"> **scrie aici**</p> |
+|<p align="center"> **4* </p>  |  <p align="center"> **scrie aici**</p>|
+|<p align="center"> **5* </p>  | <p align="center"> **scrie aici**</p> |
+|<p align="center"> **6* </p>  | <p align="center"> **scrie aici**</p> |
+|<p align="center"> **7* </p>  | <p align="center"> **scrie aici**</p> |
