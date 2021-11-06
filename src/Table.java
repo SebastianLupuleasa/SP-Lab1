@@ -1,20 +1,22 @@
-public class Table extends Element{
-
-    private String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Table(String name) {
-        this.name = name;
-    }
+public class Table implements Element{
 
     public void print(){
-        System.out.println("Table with Title: " + this.name);
+
     }
+
+    @Override
+    public void add(Element e) {
+
+    }
+
+    @Override
+    public void remove(Element e) {
+
+    }
+
+    @Override
+    public Element get(int index) {
+        return null;
+    }
+
 }
