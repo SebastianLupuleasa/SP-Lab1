@@ -1,8 +1,8 @@
 # Sabloane de Proiectare 
 
 |<p align="center"> **Laborator**</p> | <p align="center">**Observații** </p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| ------------- | ------------- |
-|<p align="center"> **1** </p>  | <p align="center"> No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.No description, website, or topics provided.                  </p>|
+ |     :---:      | |     :---:      |
+|<p align="center"> **1** </p>  | <p align="center"> scrie aici                                           </p>|
 |<p align="center"> **2** </p>  | <p align="center"> scrie aici                                           </p>|
 |<p align="center"> **3** </p>  | <p align="center"> scrie aici                                           </p>|
 |<p align="center"> **4** </p>  | <p align="center"> scrie aici                                           </p>|
