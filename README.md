@@ -1,6 +1,6 @@
 ** Sabloane de Proiectare ** 
 
-| Laborator  | Observatii |
+| Laborator  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Observatii |
 | ------------- | ------------- |
 | 1  | scrie aici |
 | 2  |  |
@@ -9,4 +9,3 @@
 | 5  | scrie aici |
 | 6  |  |
 | 7  | scrie aici |
-| ------------- | ------------- |
