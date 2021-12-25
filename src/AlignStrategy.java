@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface AlignStrategy {
+import javax.naming.Context;
+
+public interface AlignStrategy {
+
+    void render(Paragraph p);
+
 }
