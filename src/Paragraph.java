@@ -19,7 +19,7 @@ public class Paragraph implements Element{
         return text;
     }
 
-    public void print(){
+    public void render(){
 
 
         if(alignStrategy != null)
@@ -44,5 +44,10 @@ public class Paragraph implements Element{
     @Override
     public Element get(int index) {
         return null;
+    }
+
+    @Override
+    public void accept(Visitor v) {
+          v.visit(this);
     }
 }

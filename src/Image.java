@@ -6,8 +6,8 @@ public class Image implements Element,Picture{
     private String url;
     private ImageContent content;
 
-    public void print(){
-        System.out.println("Image with name: " + this.url);
+    public void render(){
+        System.out.println("Image: " + this.url);
     }
 
     @Override
@@ -47,5 +47,10 @@ public class Image implements Element,Picture{
     @Override
     public Element get(int index) {
         return null;
+    }
+
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
     }
 }

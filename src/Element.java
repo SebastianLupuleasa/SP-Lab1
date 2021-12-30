@@ -1,6 +1,8 @@
 public interface Element {
-        void print();
+
+        void render();
         void add(Element e);
         void remove(Element e);
         Element get(int index);
+        void accept(Visitor visitor);
 }
